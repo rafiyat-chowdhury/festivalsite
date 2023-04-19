@@ -134,7 +134,8 @@ footer {
 /* media query for responsive design using  FLEXBOX site made to respond to changes in viewport size from phone view to larger screens */
 
 
-@media (min-width: 769px) {
+@media only screen and (min-width: 769px),
+        only screen and (min-width:667px) and (orientation: landscape) {
     /* .main-header {
         display: flex;
         align-items: center;
